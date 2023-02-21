@@ -166,6 +166,10 @@ const controlStoredShoppingList = function () {
 //   console.log(model.state.recipe.ingredients[ingNum - 1].nutrients);
 // };
 
+const welcomeFeature = function () {
+  console.log('Welcome to the app!');
+};
+
 const init = function () {
   bookmarksView.addHandlerRender(controlStoredBookmarks);
   shoppingListView.addHandlerRender(controlStoredShoppingList);
@@ -178,7 +182,7 @@ const init = function () {
   sortView.addHandlerOption(constrolSort);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log('Welcome!');
+  welcomeFeature();
 };
 
 init();
