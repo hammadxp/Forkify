@@ -14,12 +14,12 @@ A small web app that allows users to browse through a large number of recipes to
 - Sort the results by Title or Publisher
 - Shows nutrition data such as Calories, Fat, Sugar and Protein for each ingredient when hovered
 - Shows the total amount of Calories in a recipe
-- Add ingredients of a recipe to shopping list
-- Add as many ingredients to a recipe when uploading
+- Add ingredients of a recipe to Shopping List
+- Add as many ingredients for a recipe when uploading
 
 ## Technical features
 
 - Splits search results into pages for easier navigation
-- Bookmarks are persistent, so they will be preserved after page relaods
-- Ingredients amounts are displayed in a nice cooking format as fractions
+- Bookmarks are persistent, so they will be preserved after page reloads
+- Ingredient's amount is displayed in a nice cooking format as fractions (1/2 cups of flour)
 - Uses Spoonacular API for nutrition data (https://spoonacular.com/food-api)
