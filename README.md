@@ -22,3 +22,4 @@ A small web app that allows users to browse through a large number of recipes to
 - Splits search results into pages for easier navigation
 - Bookmarks are persistent, so they will be preserved after page relaods
 - Ingredients amounts are displayed in a nice cooking format as fractions
+- Uses Spoonacular API for nutrition data (https://spoonacular.com/food-api)
