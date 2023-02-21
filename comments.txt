@@ -1,0 +1,44 @@
+['hashchange', 'load'].forEach(event => window.addEventListener(event, controlRecipes));
+
+-
+
+-> render(data)
+Primary function, which is gonna call other functions
+
+-> renderSpinner()
+Secondary functions
+
+-
+
+-> import "icons" from 'url:../../img/icons.svg';
+Using 'url' because of Parcel 2
+
+-
+
+Classes are used as a blueprint to create objects, so why are we using a 'class' here?
+Maybe just to contain methods outside global scope
+Or for just an object of methods
+
+Now I know why we used a class here
+Because with export command, we can either export individual functions or a single default export
+Also, we would need to add 'export' keyword before every function, imagine exporting 100s of functions
+So we used class to create an object which contains all kinds of different methods that we want to export
+But why not create the object without class and export that object?
+
+-
+
+<a href="#5ed6604591c37cdc054bc886">Recipe 01</a>
+<a href="#5ed6604591c37cdc054bca10">Recipe 02</a>
+
+-
+
+if (module.hot) {
+  module.hot.accept();
+}
+
+-
+
+// console.log(`Bookmarks array is not empty.`);
+
+// console.log(`Bookmarks: ${model.state.bookmarks}`);
+// model.state.bookmarks.forEach(bookmark => console.log(bookmark));

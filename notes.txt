@@ -1,0 +1,21 @@
+01. User stories -> RAW features -> Breakdown the features -> Build flowchart from the breakdown features
+02. 'npm init' (defaults) -> package.json created -> edit, add parcel commands -> install parcel, sass ->
+    'npm start' -> 'dist' folder created -> server ready
+03. install, core-js, regenerator-runtime
+04. when one async function calling another async function, we should await the child async function call
+05. loadRecipe function in model is an impure function because it's updating or manipulating the state.recipe object
+06. reason for making views a class -> because later we'll have a parent view to inheret methods
+07. reason for exporting object instead of whole class from view -> it would add un-necessary work for controller, also for no class access from
+    outside, also to only have one instance of a class
+08. renderSpinner method in class should be public so the controller can call it while it loads the recipe
+09. jonas finds it easy to start with data, so the model (when adding a new feature), load data -> render data -> handle event
+10. inheretence between truly private fields (#) won't work when adding a parent class, so use protected fields (_), by fields i mean properties and
+    methods of a class (maybe caused when using Parcel or Babel)
+11. closest method is a little bit like queryselector, but instead of searching down in the tree, it searches up in the tree
+12. mutating state object using forEach has side effect, but doing the same thing with map and then overwriting does not, why
+13. dom nodes are so confusing, took some time, basically nodeValue (text) is the element which directly contains some text and no child elements
+    so <div>5</div> has the nodeValue of 5 (firstChild), if element has childs then nodeValue = null
+14. event delegation is necessary when the element for addEventListener is not present in the begining
+15. constructor inside of the class is used for directly running a class method?
+16. this keyword inside of a handler function points to the element on which the addEventListener is attched to, got it first
+17. array entries are simply it's elements, not like object's entry value thing
