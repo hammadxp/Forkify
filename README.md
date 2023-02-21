@@ -4,18 +4,18 @@ A small web app that allows users to browse through a large number of recipes to
 
 ## Basic features
 
-- Search through recipes using keywords
+- Search through the recipes using keywords
 - Change servings (to cook for more or less people)
-- Add bookmark to recipe
+- Add bookmark to a recipe
 - Upload your own recipe
 
 ## Additional features
 
 - Sort the results by Title or Publisher
-- Add as many ingredients to a recipe when uploading
-- Add ingredients of a recipe to shopping list
 - Shows nutrition data such as Calories, Fat, Sugar and Protein for each ingredient when hovered
 - Shows the total amount of Calories in a recipe
+- Add ingredients of a recipe to shopping list
+- Add as many ingredients to a recipe when uploading
 
 ## Technical features
 
