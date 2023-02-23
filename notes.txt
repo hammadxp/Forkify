@@ -19,3 +19,6 @@
 15. constructor inside of the class is used for directly running a class method?
 16. this keyword inside of a handler function points to the element on which the addEventListener is attched to, got it first
 17. array entries are simply it's elements, not like object's entry value thing
+
+npm init
+npm i parcel -D
